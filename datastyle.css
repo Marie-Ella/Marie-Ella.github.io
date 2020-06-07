@@ -1,0 +1,335 @@
+html {
+  margin: 0;
+  padding-bottom: 25px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 600px) {
+  .dropbtn {
+     /* This is how it looks on desktop */
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+     /* This is how it looks on mobile */
+    display: none;
+  }
+}
+
+body {
+margin: 0 0 30px;
+padding: 0;
+}
+
+title {
+visibility: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 99%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #D2DADC;
+  margin: 0 auto;
+}
+
+.headerimage {
+  background: url('armed_forces_after_terror.jpg') no-repeat center center;
+  background-size: cover;
+  size: 600px;
+  max-width: 100%;
+  padding-bottom: 40%;
+}
+
+.main {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main h1 {
+  color: crimson;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btn-main {
+  width:80%;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.fluid-wrapper {
+    position: relative;
+    padding-bottom: 82.44%; /* 16:9 */
+    height: 0;
+}
+
+.fluid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+}
+
+h3 {
+  color: LightSlateGrey;
+  font-size: 11px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: right;
+  width: 100%;
+}
+
+h3 a {
+    color: DarkGrey;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 100;
+    line-height: 34px;
+    width: 100%;
+    -webkit-transition: color 1s ease-in; /*safari and chrome */
+    -moz-transition: color 1s ease-in; /* firefox */
+    -o-transition: color 1s ease-in; /* opera */
+}
+
+h3 a:hover {
+ color: #ea4d2e;
+}
+
+.dropbtn {
+    background-color: #D2DADC;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ea4d2e;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D2DADC;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ea4d2e}
+
+.show {display:block;}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+.nav a {
+  color: #fff;
+  display: inline;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+}
+
+.supporting {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.supporting .col {
+  max-width: 550px;
+  float: center;
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.supporting h4 {
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: DarkGrey;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+a {
+    color: DarkGrey;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    -webkit-transition: color 1s ease-in; /*safari and chrome */
+    -moz-transition: color 1s ease-in; /* firefox */
+    -o-transition: color 1s ease-in; /* opera */
+}
+
+a:hover {
+ color: #ea4d2e;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #D2DADC;
+  color: #fff;
+  padding: 30px 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.whole {
+  min-height: 100%;
+  margin-bottom: -30px;
+}
+
+.whole:after {
+  content: "";
+  display: block;
+}
+
+.footer, .whole:after {
+  height: 30px;
+}
+
+.footer p {
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+text-decoration: none;
+color: SlateGrey;
+float:left;
+}
+
+.buttons {
+padding-left: 35%;
+padding-bottom: 30%;
+text-decoration: none;
+color: SlateGrey;
+float:center;
+position: relative;
+}
+
+#share-buttons2 img {
+width: 10%;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+text-decoration: none;
+color: SlateGrey;
+float:left;
+}
+
+.image-float {
+max-width: 550px;
+float: left;
+width: 30%;
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 40%;
+    min-width: 20%;
+    width: 25%;
+    height: 25%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    float: left;
+}
