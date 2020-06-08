@@ -124,13 +124,10 @@ h3 a {
 }
 
 h1 {
-  color: DarkGrey;
   font-family: 'Playfair+Display', serif;
-  font-weight: 600;
-  font-size: 50px;
+  font-size: 24px;
   margin-top: 0;
   margin-bottom: 20px;
-  text-transform: uppercase;
   max-width: 100%;
   max-height: 100%;
 }
