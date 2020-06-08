@@ -28,16 +28,16 @@
     <div class="container">
       <ul class="nav">
         <li><a class="nav" href="http://mariesegger.com" data-icon="bars">About</a></li>
-        <li><a href="http://mariesegger.com/Portfolio/">Portfolio</a></li>
-        <li><a href="http://mariesegger.com/Contact/">Contact</a></li>
+        <li><a href="http://mariesegger.com/Portfolio">Portfolio</a></li>
+        <li><a href="http://mariesegger.com/Contact">Contact</a></li>
       </ul>
     </div>
        <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn">Menu</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="http://mariesegger.com">About</a>
-    <a href="http://mariesegger.com/Portfolio/">Portfolio</a>
-    <a href="http://mariesegger.com/Contact/">Contact</a>
+    <a href="http://mariesegger.com/Portfolio">Portfolio</a>
+    <a href="http://mariesegger.com/Contact">Contact</a>
   </div>
 </div>
   </div>
