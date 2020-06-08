@@ -59,7 +59,7 @@ img {
 }
 
 .main h1 {
-  color: DarkGrey;
+  color: #fff;
   font-family: 'Playfair+Display', serif;
   font-weight: 600;
   font-size: 50px;
@@ -124,6 +124,7 @@ h3 a {
 }
 
 h1 {
+  color: #fff;
   font-family: 'Playfair+Display', serif;
   font-size: 24px;
   margin-top: 0;
