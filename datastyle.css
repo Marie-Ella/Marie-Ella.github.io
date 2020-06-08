@@ -123,6 +123,18 @@ h3 a {
     -o-transition: color 1s ease-in; /* opera */
 }
 
+h1 {
+  color: crimson;
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 h3 a:hover {
  color: #ea4d2e;
 }
